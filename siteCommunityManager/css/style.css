@@ -1,0 +1,264 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: black;
+    margin-top: -8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0px 2px 8px #a09e9e
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 110px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 300;
+}
+
+header nav a:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.home_banniere {
+    background-image: url("../images/banniere.png");
+    background-size: cover;
+    width: 0 auto;
+    height: 680px;
+}
+
+.home_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    padding-left: 250px;
+}
+
+.home_contact button {
+    background-color: white;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    font-size: large;
+}
+
+.home_contact button:hover {
+    cursor: pointer;
+    box-shadow: 0px 1.5px 4px rgb(192, 186, 186);
+    transform:scale(1.04);
+    text-size-adjust: auto;
+    transition: 0.3s;
+}
+
+.home_contact a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.home_about {
+    margin-top: 150px;
+    margin-bottom: 110px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    padding-bottom: 30px;
+}
+
+.home_realisations-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.home_realisations-container img {
+    border: solid 0.5px black;
+    background-color: black;
+    border-radius: 20px;
+    width: 0 auto;
+    height: 350px;
+    padding: 0.5%;
+    padding-bottom: 0.5%;
+    object-fit: cover;
+}
+
+.home_realisations-container img:hover {
+    transform:scale(1.04);
+    text-size-adjust: auto;
+    transition: 0.3s;
+}
+
+.home_realisations-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.home_realisations-button button {
+    background-color: black;
+    border-radius: 10px;
+    width: 260px;
+    height: 40px;
+    font-size: large;
+}
+
+.home_realisations-button button:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgb(192, 186, 186);
+    transform:scale(1.04);
+    text-size-adjust: auto;
+    transition: 0.3s;
+}
+
+.home_realisations-button a {
+    text-decoration: none;
+    color: white;   
+}
+
+footer {
+    background-color: black;
+    margin-top: 100px;
+    height: 100px;
+    margin-bottom: -8px;
+}
+
+footer i {  
+    color: white;
+    font-size: xx-large;
+    padding-top: 40px;
+    padding-left: 30px;
+
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.realisations_description{
+    padding-bottom: 60px;
+}
+
+.realisations_cards img{
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 10px;
+    width: 0 auto;
+    height: 350px;
+    padding: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+
+.realisations_cards img:hover{
+    transform:scale(1.04);
+    text-size-adjust: auto;
+    transition: 0.3s;
+    box-shadow: 0px 8px 4px #a09e9eaf;
+    cursor: pointer;
+}
+
+.netflix {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.vogue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+
+}
+
+.burgerking {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.contact_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.gmaps_medium {
+    visibility: hidden;
+    width: 0px;
+}
+
+.gmaps_small {
+    visibility: hidden;
+    width: 0px;
+}
+
+.adress {
+    background-color: black;
+    padding-right: 50px;
+}
+
+.adress li {
+    font-size: larger;
+    font-weight: 500;
+    list-style-type: none;
+    padding-bottom: 20px;
+    color: white;
+    margin-left: -25px;
+}
+
+.adress li a{
+    text-decoration: none;
+    color: white;
+}

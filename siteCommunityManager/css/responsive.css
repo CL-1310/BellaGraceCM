@@ -1,0 +1,226 @@
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .about_description {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .home_banniere {
+        height: 500px;
+    }
+
+    .home_contact {
+        padding-left: 170px;
+    }
+
+    main {
+        width: 600px;
+    }
+
+    .about_description {
+       width: 800px;
+       margin-left: -90px;
+    }
+
+    .home_realisations-container {
+        gap: 10px;
+        margin-left: -260px;
+    }
+
+    .realisations_cards img{
+        height: 300px;
+    }
+
+    .netflix {
+       margin-left: -200px;
+       gap: 25px;
+    }
+    
+    .vogue {
+        margin-left: -200px;
+        gap: 25px;
+    }
+    
+    .burgerking {
+        margin-left: -230px;
+        gap: 25px;
+    }
+
+    .contact_container {
+        margin-left: -150px;
+        margin-bottom: 295px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .home_banniere {
+        height: 380px;
+    }
+
+    .home_contact {
+        margin-top: -70px;
+        padding-left: 140px;
+    }
+
+    main {
+        width: 650px;
+    }
+
+    .home_realisations-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .home_realisations-container img {
+        height: 220px;
+    }
+
+    .realisations_cards img{
+        height: 200px;
+    }
+    .netflix {
+        gap: 25px;
+        margin-left: -50px;
+     }
+     
+     .vogue {
+        gap: 25px;
+        margin-left: -50px;
+     }
+     
+     .burgerking {
+        gap: 25px;
+        margin-left: -50px;
+     }
+
+    .contact_container{
+        margin-bottom: 270px;
+    }
+
+    .gmaps {
+        visibility: hidden;
+    }
+
+    .gmaps_medium {
+        visibility: visible;
+        width: 100%;
+        margin-left: -600px;
+    }
+
+    .adress {
+        font-size: small;
+        margin-left: 0px;
+        margin-bottom: 55px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    header img {
+        width: 50px;
+        margin-left: -25px;
+    }
+
+    header nav ul{
+        gap: 15px;
+    }
+
+    header nav a {
+        font-size: medium;
+    }
+
+    .home_banniere {
+        height: 190px;
+    }
+
+    .home_contact {
+        padding-top: 45px;
+        padding-left: 60px;
+    }
+
+    .home_contact button {
+
+        font-size: small;
+        width: 120px;
+        height: 30px;
+
+    }
+
+    main {
+        margin-top: -70px;
+        width: 300px;
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+
+    .home_realisations-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .home_realisations-container img {
+        border: solid 3px black;
+        background-color: black;
+        border-radius: 20px;
+        width: 0 auto;
+        height: 320px;
+        padding: 3%;
+        padding-bottom: 3%;
+        object-fit: cover;
+    }
+
+    .realisations_cards img{
+        height: 270px;
+    }
+    .netflix {
+        display: flex;
+        flex-direction: column;
+     }
+     
+     .vogue {
+        display: flex;
+        flex-direction: column;
+     }
+     
+     .burgerking {
+        display: flex;
+        flex-direction: column;
+     }
+
+     .contact_container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .gmaps {
+        visibility: hidden;
+    }
+
+    .gmaps iframe {
+        width: 0px;
+    }
+
+    .gmaps_medium iframe {
+        width: 0px;
+    }
+
+    .gmaps_medium {
+        visibility: hidden;
+    }
+
+    .gmaps_small {
+        visibility: visible;
+        width: 100%;
+    }
+
+    .adress {
+        font-size: small;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
